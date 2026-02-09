@@ -1,42 +1,46 @@
 # 🌌 NovaCalculate Pro — 2026 Edition
 > **A high-fidelity web instrument where visual tranquility meets mathematical precision.**
 
-[![GitHub stars](https://img.shields.io/github/stars/SOVERNBAEZIT/novacalculate?style=for-the-badge&color=06b6d4)](https://github.com/SOVERNBAEZIT/novacalculate/stargazers)
-[![Live Demo](https://img.shields.io/badge/demo-live--launch-FFD700?style=for-the-badge&logo=google-chrome)](https://sovernbaezit.github.io/novacalculate/beginner/)
+<div align="center">
+
+| 🚀 Live Deployment | 💻 Source Code | 🛠️ Build Status |
+| :--- | :--- | :--- |
+| [![Demo](https://img.shields.io/badge/LIVE-DEMO-06b6d4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sovernbaezit.github.io/novacalculate/novacalc-beginner/) | [![Code](https://img.shields.io/badge/GITHUB-REPO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SOVERNBAEZIT/novacalculate) | ![Build](https://img.shields.io/badge/STATUS-OPERATIONAL-04d361?style=for-the-badge) |
+
+</div>
 
 ---
 
 ## 📸 Preview
-![NovaCalculate Showcase](picturenovacalc.png)
+![NovaCalculate Showcase](novacalc-beginner/picturenovacalc.png)
 
 ## 📖 Tentang Proyek
-**NovaCalculate Pro** lahir dari keinginan untuk mendefinisikan ulang bagaimana sebuah alat hitung digital seharusnya dirasakan. Di saat banyak aplikasi terjebak dalam desain yang terlalu ramai, proyek ini mengambil langkah berbeda dengan mengusung filosofi **"Visual Tranquility"**.
+**NovaCalculate Pro** lahir dari filosofi **"Visual Tranquility"**. Di era di mana antarmuka seringkali terlalu bising, proyek ini hadir dengan pendekatan *Glassmorphism* dan *Soft-UI* yang minimalis. Tujuannya sederhana: memberikan pengalaman berhitung yang tenang, presisi, dan elegan.
 
-Melalui pendekatan **Glassmorphism** dan **Soft-UI**, antarmuka ini dirancang untuk "melesap" ke dalam latar belakang, memberikan kenyamanan maksimal bagi mata tanpa mengorbankan fungsionalitas. Setiap transisi angka dan penekanan tombol dioptimalkan untuk memberikan respons yang taktil dan elegan.
+Dibuat dengan dedikasi pada detail, mulai dari transisi tombol yang taktil hingga logika matematika yang dioptimalkan menggunakan *Pure Vanilla JavaScript*.
 
-### ✨ Fitur Utama
-* **Deep Glassmorphism**: Implementasi `backdrop-filter` yang presisi untuk menciptakan efek kaca transparan yang mewah.
-* **Refined Logic**: Dibangun di atas *Vanilla JavaScript* yang dioptimalkan untuk menangani operasi matematika dengan akurasi tinggi.
-* **Subtle Motion**: Animasi background `floatingWave` yang tenang, memberikan kesan aplikasi yang hidup namun tetap profesional.
-* **Scientific-Lite**: Dukungan penuh untuk kalkulasi Akar Kuadrat (√), Persen (%), dan Eksponen (x²).
-
----
-
-## 🛠️ Jantung Teknologi
-Dalam pengembangan proyek ini, fokus utama adalah efisiensi dan performa murni. Itulah sebabnya saya memilih untuk tidak menggunakan *library* eksternal, melainkan memaksimalkan potensi bahasa pemrograman web standar.
-
-* **Core Engine**: Vanilla JavaScript (ES6+) — Cepat, ringan, dan andal.
-* **Visual Styling**: Modern CSS3 (Advanced Grid, Flexbox, & Keyframe Animations).
-* **Typography**: Menggunakan **Inter** untuk UI yang modern dan **JetBrains Mono** untuk visualisasi angka yang tegas.
+### ✨ Fitur Unggulan
+* **Elegant Glassmorphism**: Efek blur transparan yang memberikan kedalaman visual mewah.
+* **Robust Logic Engine**: Penanganan kalkulasi presisi tanpa ketergantungan pada library eksternal.
+* **Scientific-Lite**: Mendukung operasi Akar Kuadrat (√), Persen (%), dan Eksponen (x²).
+* **Responsive Fluidity**: Tata letak yang beradaptasi sempurna di berbagai resolusi layar.
 
 ---
 
-## 📂 Struktur Proyek
+## 🛠️ Jeroan Teknologi
+Saya membangun proyek ini dengan fokus pada performa murni dan standar web modern:
+* **Logic**: Vanilla JavaScript (ES6+)
+* **Styling**: CSS3 dengan Advanced Keyframe Animations
+* **Typography**: **Inter** (Interface) & **JetBrains Mono** (Digits)
+
+---
+
+## 📂 Struktur Repositori
 ```text
 novacalculate/
-├── picturenovacalc.png    # Gambar sampul dokumentasi
-├── README.md              # Dokumentasi teknis
-└── beginner/              # Source code inti
-    ├── index.html         # Struktur semantik
-    ├── style.css          # Logika visual & estetika
-    └── script.js          # Arsitektur kalkulasi
+├── README.md               # Dokumentasi Utama
+└── novacalc-beginner/      # Source Code Aplikasi
+    ├── index.html          # Struktur Semantik
+    ├── style.css           # Estetika & Visual
+    ├── script.js           # Otak Kalkulasi
+    └── picturenovacalc.png # Asset Preview
